@@ -65,6 +65,7 @@ class AfishaManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void findLast5() {
         AfishaManager manager = new AfishaManager();
@@ -79,6 +80,7 @@ class AfishaManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void findLast7() {
         AfishaManager manager = new AfishaManager(7);
